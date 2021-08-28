@@ -10,25 +10,16 @@ using System.Windows.Forms;
 
 namespace ProyectoHeladeria
 {
-    public partial class FrmLogin : Form
+    public partial class FrmControlCategoria : Form
     {
-        public FrmLogin()
+        public FrmControlCategoria()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-                    }
     }
 }

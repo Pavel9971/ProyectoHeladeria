@@ -63,9 +63,39 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1485477090_lock_78576 {
+            get {
+                object obj = ResourceManager.GetObject("1485477090-lock_78576", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1485477097_avatar_78580__1_ {
+            get {
+                object obj = ResourceManager.GetObject("1485477097-avatar_78580 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _48076 {
             get {
                 object obj = ResourceManager.GetObject("48076", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_person_people_6100__1_ {
+            get {
+                object obj = ResourceManager.GetObject("user_person_people_6100 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
