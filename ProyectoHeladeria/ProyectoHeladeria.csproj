@@ -137,5 +137,11 @@
   <ItemGroup>
     <None Include="Resources\1485477090-lock_78576.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{d7de37af-08bc-4aaf-ba4d-1f3918058c51}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
