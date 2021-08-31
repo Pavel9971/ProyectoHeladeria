@@ -93,6 +93,16 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap check_ok_accept_apply_1582 {
+            get {
+                object obj = ResourceManager.GetObject("check_ok_accept_apply_1582", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_person_people_6100__1_ {
             get {
                 object obj = ResourceManager.GetObject("user_person_people_6100 (1)", resourceCulture);

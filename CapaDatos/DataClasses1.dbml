@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProyectoHeladeria" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=ProyectoHeladeria;Persist Security Info=True;User ID=sa" SettingsObjectName="CapaDatos.Properties.Settings" SettingsPropertyName="ProyectoHeladeriaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TBL_USUARIO" Member="TBL_USUARIO">
+    <Type Name="TBL_USUARIO">
+      <Column Name="ID_USUARIO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="USU_USUARIO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="USU_CLAVE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="USU_TIPO_USUARIO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="USU_ESTADO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_CLIENTES" Member="TBL_CLIENTES">
+    <Type Name="TBL_CLIENTES">
+      <Column Name="ID_CLIENTE" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CLI_NOMBRECOMPLETO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CLI_CI" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CLI_NUMERO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CLI_DIRECCION" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CLI_ESTADO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
