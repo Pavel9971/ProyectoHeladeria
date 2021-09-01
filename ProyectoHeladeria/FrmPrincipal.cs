@@ -30,11 +30,7 @@ namespace ProyectoHeladeria
 
         }
 
-        private void cATEGORIASToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FrmControlCategoria frm = new FrmControlCategoria();
-            frm.Show();
-        }
+    
 
         private void pRODUCTOSToolStripMenuItem_Click(object sender, EventArgs e)
         {
