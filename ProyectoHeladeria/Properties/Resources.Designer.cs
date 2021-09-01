@@ -103,6 +103,16 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _23149501 {
+            get {
+                object obj = ResourceManager.GetObject("23149501", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _41891768_vector_helados_fondo_patrón_helado_del_doodle_con_cono_cuchara_chocolate_helado_y_la_taza_dibujado_a {
             get {
                 object obj = ResourceManager.GetObject("41891768-vector-helados-fondo-patrón-helado-del-doodle-con-cono-cuchara-chocolate" +
@@ -145,6 +155,16 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _91125943232f0652c5acf47480baacde {
+            get {
+                object obj = ResourceManager.GetObject("91125943232f0652c5acf47480baacde", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cdc0e9b5bc0f2088160c21404174dbd4 {
             get {
                 object obj = ResourceManager.GetObject("cdc0e9b5bc0f2088160c21404174dbd4", resourceCulture);
@@ -165,6 +185,27 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap conos_de_helado_vacíos_como_frontera_decorativa_en_el_fondo_verde_colores_pastel_falso_para_arriba_hacer_publicidad_diseño_menú_153776473 {
+            get {
+                object obj = ResourceManager.GetObject("conos-de-helado-vacíos-como-frontera-decorativa-en-el-fondo-verde-colores-pastel-" +
+                        "falso-para-arriba-hacer-publicidad-diseño-menú-153776473", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diverso_sabor_helado_disposicion_conos_fondo_blanco_diseno_menu_dulces_35641_226 {
+            get {
+                object obj = ResourceManager.GetObject("diverso-sabor-helado-disposicion-conos-fondo-blanco-diseno-menu-dulces_35641-226", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fondo_patron_helado_1340_859 {
             get {
                 object obj = ResourceManager.GetObject("fondo-patron-helado_1340-859", resourceCulture);
@@ -178,6 +219,16 @@ namespace ProyectoHeladeria.Properties {
         internal static System.Drawing.Bitmap fondo_poligonal_transparente_colorido_abstracto_1055_5149 {
             get {
                 object obj = ResourceManager.GetObject("fondo-poligonal-transparente-colorido-abstracto_1055-5149", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap heladeria_plan {
+            get {
+                object obj = ResourceManager.GetObject("heladeria_plan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

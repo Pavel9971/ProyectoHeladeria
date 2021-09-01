@@ -211,5 +211,20 @@
   <ItemGroup>
     <None Include="Resources\5bf40daf5260477f1b8ad61d569a14e6.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23149501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diverso-sabor-helado-disposicion-conos-fondo-blanco-diseno-menu-dulces_35641-226.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91125943232f0652c5acf47480baacde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heladeria_plan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conos-de-helado-vacíos-como-frontera-decorativa-en-el-fondo-verde-colores-pastel-falso-para-arriba-hacer-publicidad-diseño-menú-153776473.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
