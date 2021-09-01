@@ -22,7 +22,7 @@ namespace ProyectoHeladeria
         {
             if (validar_Usuario(txtusuario.Text, txtclave.Text))
             {
-                FrmPrincipal frm = new FrmPrincipal();
+                FrmCompraProductos frm = new FrmCompraProductos();
                 FrmLoginCliente fr = new FrmLoginCliente();
 
 
