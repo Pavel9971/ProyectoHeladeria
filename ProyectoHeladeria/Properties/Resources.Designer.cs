@@ -83,9 +83,71 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _20_color_polygonal_three_dimensional_high_definition_background_picture_below {
+            get {
+                object obj = ResourceManager.GetObject("20-color-polygonal-three-dimensional-high-definition-background-picture-below", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2314950 {
+            get {
+                object obj = ResourceManager.GetObject("2314950", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _41891768_vector_helados_fondo_patrón_helado_del_doodle_con_cono_cuchara_chocolate_helado_y_la_taza_dibujado_a {
+            get {
+                object obj = ResourceManager.GetObject("41891768-vector-helados-fondo-patrón-helado-del-doodle-con-cono-cuchara-chocolate" +
+                        "-helado-y-la-taza-dibujado-a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _41891768_vector_helados_fondo_patrón_helado_del_doodle_con_cono_cuchara_chocolate_helado_y_la_taza_dibujado_a1 {
+            get {
+                object obj = ResourceManager.GetObject("41891768-vector-helados-fondo-patrón-helado-del-doodle-con-cono-cuchara-chocolate" +
+                        "-helado-y-la-taza-dibujado-a1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _48076 {
             get {
                 object obj = ResourceManager.GetObject("48076", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5bf40daf5260477f1b8ad61d569a14e6 {
+            get {
+                object obj = ResourceManager.GetObject("5bf40daf5260477f1b8ad61d569a14e6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cdc0e9b5bc0f2088160c21404174dbd4 {
+            get {
+                object obj = ResourceManager.GetObject("cdc0e9b5bc0f2088160c21404174dbd4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +165,39 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondo_patron_helado_1340_859 {
+            get {
+                object obj = ResourceManager.GetObject("fondo-patron-helado_1340-859", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondo_poligonal_transparente_colorido_abstracto_1055_5149 {
+            get {
+                object obj = ResourceManager.GetObject("fondo-poligonal-transparente-colorido-abstracto_1055-5149", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic_keyboard_return_128_28490 {
             get {
                 object obj = ResourceManager.GetObject("ic_keyboard_return_128_28490", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_exploding_3d_particles_background_png_picture_image_1167899 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-exploding-3d-particles-background-png-picture-image_1167899", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

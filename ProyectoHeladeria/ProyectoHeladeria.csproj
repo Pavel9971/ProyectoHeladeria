@@ -175,5 +175,32 @@
   <ItemGroup>
     <None Include="Resources\ic_keyboard_return_128_28490.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41891768-vector-helados-fondo-patrón-helado-del-doodle-con-cono-cuchara-chocolate-helado-y-la-taza-dibujado-a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-patron-helado_1340-859.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41891768-vector-helados-fondo-patrón-helado-del-doodle-con-cono-cuchara-chocolate-helado-y-la-taza-dibujado-a1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2314950.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-poligonal-transparente-colorido-abstracto_1055-5149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdc0e9b5bc0f2088160c21404174dbd4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-exploding-3d-particles-background-png-picture-image_1167899.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20-color-polygonal-three-dimensional-high-definition-background-picture-below.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5bf40daf5260477f1b8ad61d569a14e6.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

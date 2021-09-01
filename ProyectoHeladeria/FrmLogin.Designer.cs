@@ -44,28 +44,31 @@ namespace ProyectoHeladeria
             // txtusuario
             // 
             this.txtusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusuario.Location = new System.Drawing.Point(141, 218);
+            this.txtusuario.Location = new System.Drawing.Point(188, 268);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(200, 26);
+            this.txtusuario.Size = new System.Drawing.Size(265, 30);
             this.txtusuario.TabIndex = 3;
             this.txtusuario.TextChanged += new System.EventHandler(this.txtusuario_TextChanged);
             // 
             // txtclave
             // 
             this.txtclave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtclave.Location = new System.Drawing.Point(141, 312);
+            this.txtclave.Location = new System.Drawing.Point(188, 384);
+            this.txtclave.Margin = new System.Windows.Forms.Padding(4);
             this.txtclave.Name = "txtclave";
             this.txtclave.PasswordChar = '*';
-            this.txtclave.Size = new System.Drawing.Size(200, 26);
+            this.txtclave.Size = new System.Drawing.Size(265, 30);
             this.txtclave.TabIndex = 4;
             this.txtclave.TextChanged += new System.EventHandler(this.txtclave_TextChanged);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(120, 387);
+            this.button1.Location = new System.Drawing.Point(160, 476);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 46);
+            this.button1.Size = new System.Drawing.Size(199, 57);
             this.button1.TabIndex = 5;
             this.button1.Text = "ACEPTAR";
             this.button1.UseVisualStyleBackColor = true;
@@ -75,7 +78,8 @@ namespace ProyectoHeladeria
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::ProyectoHeladeria.Properties.Resources._1485477090_lock_78576;
-            this.pictureBox3.Location = new System.Drawing.Point(42, 289);
+            this.pictureBox3.Location = new System.Drawing.Point(56, 356);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(64, 64);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -87,7 +91,8 @@ namespace ProyectoHeladeria
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::ProyectoHeladeria.Properties.Resources._1485477097_avatar_78580__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(42, 197);
+            this.pictureBox2.Location = new System.Drawing.Point(56, 242);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(64, 64);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -99,9 +104,10 @@ namespace ProyectoHeladeria
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::ProyectoHeladeria.Properties.Resources.user_person_people_6100__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(120, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(160, 34);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(128, 128);
+            this.pictureBox1.Size = new System.Drawing.Size(171, 158);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -109,18 +115,21 @@ namespace ProyectoHeladeria
             // button2
             // 
             this.button2.Image = global::ProyectoHeladeria.Properties.Resources.ic_keyboard_return_128_28490;
-            this.button2.Location = new System.Drawing.Point(306, -1);
+            this.button2.Location = new System.Drawing.Point(408, -1);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 13;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 461);
+            this.BackgroundImage = global::ProyectoHeladeria.Properties.Resources._5bf40daf5260477f1b8ad61d569a14e6;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(507, 567);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtclave);
@@ -128,9 +137,11 @@ namespace ProyectoHeladeria
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLogin";
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -42,17 +42,19 @@ namespace ProyectoHeladeria
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(114, 19);
+            this.label1.Location = new System.Drawing.Point(152, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 25);
+            this.label1.Size = new System.Drawing.Size(104, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "LOGIN";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(97, 334);
+            this.button2.Location = new System.Drawing.Point(129, 411);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(139, 27);
+            this.button2.Size = new System.Drawing.Size(185, 33);
             this.button2.TabIndex = 2;
             this.button2.Text = "Cliente";
             this.button2.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@ namespace ProyectoHeladeria
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(97, 174);
+            this.button1.Location = new System.Drawing.Point(129, 214);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 27);
+            this.button1.Size = new System.Drawing.Size(185, 33);
             this.button1.TabIndex = 3;
             this.button1.Text = "Administrador";
             this.button1.UseVisualStyleBackColor = true;
@@ -71,31 +74,36 @@ namespace ProyectoHeladeria
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ProyectoHeladeria.Properties.Resources.users_clients_group_16774__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(131, 227);
+            this.pictureBox2.Location = new System.Drawing.Point(175, 279);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(64, 69);
+            this.pictureBox2.Size = new System.Drawing.Size(85, 85);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProyectoHeladeria.Properties.Resources.user_person_people_6100__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(109, 58);
+            this.pictureBox1.Location = new System.Drawing.Point(145, 71);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(127, 110);
+            this.pictureBox1.Size = new System.Drawing.Size(169, 135);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // FrmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 373);
+            this.BackgroundImage = global::ProyectoHeladeria.Properties.Resources.pngtree_exploding_3d_particles_background_png_picture_image_1167899;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(445, 459);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmInicio";
