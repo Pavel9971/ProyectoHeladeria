@@ -185,6 +185,16 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cone_ice_cream_chocolate_hazelnut_260nw_1814030597 {
+            get {
+                object obj = ResourceManager.GetObject("cone-ice-cream-chocolate-hazelnut-260nw-1814030597", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap conos_de_helado_vacíos_como_frontera_decorativa_en_el_fondo_verde_colores_pastel_falso_para_arriba_hacer_publicidad_diseño_menú_153776473 {
             get {
                 object obj = ResourceManager.GetObject("conos-de-helado-vacíos-como-frontera-decorativa-en-el-fondo-verde-colores-pastel-" +

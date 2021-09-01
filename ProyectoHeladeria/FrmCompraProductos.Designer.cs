@@ -295,8 +295,7 @@ namespace ProyectoHeladeria
             // 
             // panel3
             // 
-            this.panel3.BackgroundImage = global::ProyectoHeladeria.Properties.Resources.heladeria_plan;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.BackgroundImage = global::ProyectoHeladeria.Properties.Resources.cone_ice_cream_chocolate_hazelnut_260nw_1814030597;
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.textBox11);
             this.panel3.Controls.Add(this.textBox12);

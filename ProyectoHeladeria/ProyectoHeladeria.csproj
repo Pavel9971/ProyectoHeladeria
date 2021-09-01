@@ -226,5 +226,8 @@
   <ItemGroup>
     <None Include="Resources\conos-de-helado-vacíos-como-frontera-decorativa-en-el-fondo-verde-colores-pastel-falso-para-arriba-hacer-publicidad-diseño-menú-153776473.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cone-ice-cream-chocolate-hazelnut-260nw-1814030597.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
