@@ -32,7 +32,6 @@ namespace ProyectoHeladeria
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cLIENTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pROVEEDORESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cATEGORIASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pRODUCTOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -42,7 +41,6 @@ namespace ProyectoHeladeria
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cLIENTESToolStripMenuItem,
             this.pROVEEDORESToolStripMenuItem,
-            this.cATEGORIASToolStripMenuItem,
             this.pRODUCTOSToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -63,13 +61,6 @@ namespace ProyectoHeladeria
             this.pROVEEDORESToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
             this.pROVEEDORESToolStripMenuItem.Text = "PROVEEDORES";
             this.pROVEEDORESToolStripMenuItem.Click += new System.EventHandler(this.pROVEEDORESToolStripMenuItem_Click);
-            // 
-            // cATEGORIASToolStripMenuItem
-            // 
-            this.cATEGORIASToolStripMenuItem.Name = "cATEGORIASToolStripMenuItem";
-            this.cATEGORIASToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
-            this.cATEGORIASToolStripMenuItem.Text = "CATEGORIAS";
-            this.cATEGORIASToolStripMenuItem.Click += new System.EventHandler(this.cATEGORIASToolStripMenuItem_Click);
             // 
             // pRODUCTOSToolStripMenuItem
             // 
@@ -101,7 +92,6 @@ namespace ProyectoHeladeria
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cLIENTESToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pROVEEDORESToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cATEGORIASToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pRODUCTOSToolStripMenuItem;
     }
 }

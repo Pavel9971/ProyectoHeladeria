@@ -1,5 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProyectoHeladeria" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=ProyectoHeladeria;Persist Security Info=True;User ID=sa" SettingsObjectName="CapaDatos.Properties.Settings" SettingsPropertyName="ProyectoHeladeriaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TBL_VENTA" Member="TBL_VENTA">
+    <Type Name="TBL_VENTA">
+      <Column Name="ID_VENTA" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_CLIENTE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_PRODUCTO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VEN_CODIGO_VENTA" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="VEN_CANTIDAD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="VEN_COSTO" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="VEN_FECHA" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="VEN_ESTADO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="TBL_PRODUCTO_TBL_VENTA" Member="TBL_PRODUCTO" ThisKey="ID_PRODUCTO" OtherKey="ID_PRODUCTO" Type="TBL_PRODUCTO" IsForeignKey="true" />
+      <Association Name="TBL_CLIENTES_TBL_VENTA" Member="TBL_CLIENTES" ThisKey="ID_CLIENTE" OtherKey="ID_CLIENTE" Type="TBL_CLIENTES" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
   <Table Name="dbo.TBL_USUARIO" Member="TBL_USUARIO">
     <Type Name="TBL_USUARIO">
       <Column Name="ID_USUARIO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -7,6 +21,44 @@
       <Column Name="USU_CLAVE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="USU_TIPO_USUARIO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="USU_ESTADO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_PROOVEDORES" Member="TBL_PROOVEDORES">
+    <Type Name="TBL_PROOVEDORES">
+      <Column Name="ID_PROOVEDOR" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PROV_NOMBRE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PROV_RUC" Type="System.String" DbType="VarChar(13)" CanBeNull="true" />
+      <Column Name="PROV_NUMERO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="PROV_DIRECCION" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PROV_ESTADO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="TBL_PROOVEDORES_TBL_COMPRA" Member="TBL_COMPRA" ThisKey="ID_PROOVEDOR" OtherKey="ID_PROOVEDOR" Type="TBL_COMPRA" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_PRODUCTO" Member="TBL_PRODUCTO">
+    <Type Name="TBL_PRODUCTO">
+      <Column Name="ID_PRODUCTO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_CAT_HELADO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRO_CODIGO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PRO_NOMBRE" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PRO_CANTIDAD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PRO_COSTO" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PRO_ESTADO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="TBL_PRODUCTO_TBL_VENTA" Member="TBL_VENTA" ThisKey="ID_PRODUCTO" OtherKey="ID_PRODUCTO" Type="TBL_VENTA" />
+      <Association Name="TBL_PRODUCTO_TBL_COMPRA" Member="TBL_COMPRA" ThisKey="ID_PRODUCTO" OtherKey="ID_PRODUCTO" Type="TBL_COMPRA" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_COMPRA" Member="TBL_COMPRA">
+    <Type Name="TBL_COMPRA">
+      <Column Name="ID_PROOVEDOR" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_PRODUCTO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID_COMPRA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COM_CODIGO_COMPRA" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="COM_CANTIDAD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COM_COSTO" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="COM_FECHA" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="COM_ESTADO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="TBL_PRODUCTO_TBL_COMPRA" Member="TBL_PRODUCTO" ThisKey="ID_PRODUCTO" OtherKey="ID_PRODUCTO" Type="TBL_PRODUCTO" IsForeignKey="true" />
+      <Association Name="TBL_PROOVEDORES_TBL_COMPRA" Member="TBL_PROOVEDORES" ThisKey="ID_PROOVEDOR" OtherKey="ID_PROOVEDOR" Type="TBL_PROOVEDORES" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.TBL_CLIENTES" Member="TBL_CLIENTES">
@@ -17,6 +69,7 @@
       <Column Name="CLI_NUMERO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
       <Column Name="CLI_DIRECCION" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="CLI_ESTADO" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Association Name="TBL_CLIENTES_TBL_VENTA" Member="TBL_VENTA" ThisKey="ID_CLIENTE" OtherKey="ID_CLIENTE" Type="TBL_VENTA" />
     </Type>
   </Table>
 </Database>

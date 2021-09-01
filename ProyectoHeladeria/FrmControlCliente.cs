@@ -30,6 +30,7 @@ namespace ProyectoHeladeria
             DtgCliente.DataSource = query;
         }
 
+
         private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
         {
 

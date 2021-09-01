@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDatos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,44 +8,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CapaDatos;
 
 namespace ProyectoHeladeria
 {
-    public partial class FrmLogin : Form
+    public partial class FrmLoginCliente : Form
     {
-       
-
-        public FrmLogin()
+        public FrmLoginCliente()
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-        }
-
-
-
-
-
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (validar_Usuario(txtusuario.Text, txtclave.Text))
             {
                 FrmPrincipal frm = new FrmPrincipal();
-                FrmLogin fr = new FrmLogin();
+                FrmLoginCliente fr = new FrmLoginCliente();
 
 
                 frm.Show();
@@ -52,15 +31,14 @@ namespace ProyectoHeladeria
 
             }
 
-
         }
         private bool validar_Usuario(string user, string clave)
         {
             DataClasses1DataContext context = new DataClasses1DataContext();
 
-            var q = from p in context.TBL_USUARIO
-                    where p.USU_USUARIO == txtusuario.Text
-                    && p.USU_CLAVE == txtclave.Text
+            var q = from p in context.TBL_CLIENTES
+                    where p.CLI_CI == txtusuario.Text
+                    && p.CLI_CI == txtclave.Text
                     select p;
 
 
@@ -82,30 +60,10 @@ namespace ProyectoHeladeria
 
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtusuario_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtclave_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             FrmInicio frm = new FrmInicio();
-            FrmLogin fr = new FrmLogin();
+            FrmLoginCliente fr = new FrmLoginCliente();
 
 
             frm.Show();

@@ -47,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmControlCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmControlCategoria.Designer.cs">
-      <DependentUpon>FrmControlCategoria.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmControlCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,11 +65,23 @@
     <Compile Include="FrmControlProveedor.Designer.cs">
       <DependentUpon>FrmControlProveedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.Designer.cs">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoginCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoginCliente.Designer.cs">
+      <DependentUpon>FrmLoginCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
@@ -85,9 +91,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmControlCategoria.resx">
-      <DependentUpon>FrmControlCategoria.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmControlCliente.resx">
       <DependentUpon>FrmControlCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,8 +100,14 @@
     <EmbeddedResource Include="FrmControlProveedor.resx">
       <DependentUpon>FrmControlProveedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoginCliente.resx">
+      <DependentUpon>FrmLoginCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
@@ -150,6 +159,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\check_ok_accept_apply_1582.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_person_people_6100 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_clients_group_16774 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_clients_group_16774.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_clients_group_16774 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_keyboard_return_128_28490.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

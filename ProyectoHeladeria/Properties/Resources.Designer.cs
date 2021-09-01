@@ -103,9 +103,59 @@ namespace ProyectoHeladeria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ic_keyboard_return_128_28490 {
+            get {
+                object obj = ResourceManager.GetObject("ic_keyboard_return_128_28490", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_person_people_6100__1_ {
             get {
                 object obj = ResourceManager.GetObject("user_person_people_6100 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_person_people_6100__2_ {
+            get {
+                object obj = ResourceManager.GetObject("user_person_people_6100 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap users_clients_group_16774 {
+            get {
+                object obj = ResourceManager.GetObject("users_clients_group_16774", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap users_clients_group_16774__1_ {
+            get {
+                object obj = ResourceManager.GetObject("users_clients_group_16774 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap users_clients_group_16774__2_ {
+            get {
+                object obj = ResourceManager.GetObject("users_clients_group_16774 (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

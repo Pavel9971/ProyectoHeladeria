@@ -31,21 +31,21 @@ namespace ProyectoHeladeria
         {
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnbuscar = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtdireccion = new System.Windows.Forms.TextBox();
+            this.txttelefono = new System.Windows.Forms.TextBox();
+            this.txtruc = new System.Windows.Forms.TextBox();
+            this.txtnombre = new System.Windows.Forms.TextBox();
             this.btnlimpiar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtgProveedor = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgProveedor)).BeginInit();
             this.SuspendLayout();
             // 
             // txtBuscar
@@ -64,33 +64,33 @@ namespace ProyectoHeladeria
             this.btnbuscar.Text = "Buscar";
             this.btnbuscar.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtdireccion
             // 
-            this.textBox3.Location = new System.Drawing.Point(202, 183);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(218, 20);
-            this.textBox3.TabIndex = 29;
+            this.txtdireccion.Location = new System.Drawing.Point(202, 183);
+            this.txtdireccion.Name = "txtdireccion";
+            this.txtdireccion.Size = new System.Drawing.Size(218, 20);
+            this.txtdireccion.TabIndex = 29;
             // 
-            // textBox4
+            // txttelefono
             // 
-            this.textBox4.Location = new System.Drawing.Point(202, 141);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(218, 20);
-            this.textBox4.TabIndex = 28;
+            this.txttelefono.Location = new System.Drawing.Point(202, 141);
+            this.txttelefono.Name = "txttelefono";
+            this.txttelefono.Size = new System.Drawing.Size(218, 20);
+            this.txttelefono.TabIndex = 28;
             // 
-            // textBox2
+            // txtruc
             // 
-            this.textBox2.Location = new System.Drawing.Point(202, 104);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(218, 20);
-            this.textBox2.TabIndex = 27;
+            this.txtruc.Location = new System.Drawing.Point(202, 104);
+            this.txtruc.Name = "txtruc";
+            this.txtruc.Size = new System.Drawing.Size(218, 20);
+            this.txtruc.TabIndex = 27;
             // 
-            // textBox1
+            // txtnombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(202, 62);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(218, 20);
-            this.textBox1.TabIndex = 26;
+            this.txtnombre.Location = new System.Drawing.Point(202, 62);
+            this.txtnombre.Name = "txtnombre";
+            this.txtnombre.Size = new System.Drawing.Size(218, 20);
+            this.txtnombre.TabIndex = 26;
             // 
             // btnlimpiar
             // 
@@ -100,6 +100,7 @@ namespace ProyectoHeladeria
             this.btnlimpiar.TabIndex = 25;
             this.btnlimpiar.Text = "Limpiar";
             this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
             // 
             // btnEliminar
             // 
@@ -109,6 +110,7 @@ namespace ProyectoHeladeria
             this.btnEliminar.TabIndex = 24;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnActualizar
             // 
@@ -118,6 +120,7 @@ namespace ProyectoHeladeria
             this.btnActualizar.TabIndex = 23;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // btnRegistrar
             // 
@@ -127,6 +130,7 @@ namespace ProyectoHeladeria
             this.btnRegistrar.TabIndex = 22;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // label4
             // 
@@ -146,13 +150,14 @@ namespace ProyectoHeladeria
             this.label5.TabIndex = 20;
             this.label5.Text = "Telefono";
             // 
-            // dataGridView1
+            // dtgProveedor
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 281);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(874, 290);
-            this.dataGridView1.TabIndex = 19;
+            this.dtgProveedor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgProveedor.Location = new System.Drawing.Point(12, 281);
+            this.dtgProveedor.Name = "dtgProveedor";
+            this.dtgProveedor.Size = new System.Drawing.Size(874, 290);
+            this.dtgProveedor.TabIndex = 19;
+            this.dtgProveedor.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dtgProveedor_CellMouseClick);
             // 
             // label3
             // 
@@ -190,17 +195,17 @@ namespace ProyectoHeladeria
             this.ClientSize = new System.Drawing.Size(898, 586);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnbuscar);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtdireccion);
+            this.Controls.Add(this.txttelefono);
+            this.Controls.Add(this.txtruc);
+            this.Controls.Add(this.txtnombre);
             this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtgProveedor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -208,7 +213,7 @@ namespace ProyectoHeladeria
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmControlProveedor";
             this.Load += new System.EventHandler(this.FrmControlProveedor_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgProveedor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,17 +223,17 @@ namespace ProyectoHeladeria
 
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnbuscar;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtdireccion;
+        private System.Windows.Forms.TextBox txttelefono;
+        private System.Windows.Forms.TextBox txtruc;
+        private System.Windows.Forms.TextBox txtnombre;
         private System.Windows.Forms.Button btnlimpiar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgProveedor;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
